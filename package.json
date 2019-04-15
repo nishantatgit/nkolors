@@ -1,0 +1,21 @@
+{
+    "name": "nkolors",
+    "displayName": "nkolors",
+    "description": "my theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "nktheme",
+                "uiTheme": "vs",
+                "path": "./themes/nktheme-color-theme.json"
+            }
+        ]
+    }
+}
